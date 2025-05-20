@@ -144,7 +144,7 @@ function createUserClusterLayer(users, color, label) {
 const osm = new ol.layer.Tile({
   source: new ol.source.OSM(),
   title: "OpenStreetMap",
-  visible: false,
+  visible: true,
   type: "base",
 });
 
